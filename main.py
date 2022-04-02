@@ -3,10 +3,11 @@ import datetime as dt
 import random
 
 my_email = "sample@gmail.com"
-password = "pass"
+password = "passw"
 
 now = dt.datetime.now()
 day_of_week = now.weekday()
+
 
 def sent_mail(motivation_massage: str):
     """Docstring
